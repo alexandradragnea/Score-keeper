@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content:center;
+}
+
+#container{
+    margin-top:50px;
+    flex-direction:column;
+    justify-content:center; 
+    font-family: 'Kiwi Maru', serif;
+}
+#scoreSelect{
+    border-radius:20px;
+}
+#p1Button{
+    background-color: pink;
+}
+#p2Button{
+    background-color: cyan;
+    /* border: solid black 1px; */
+}
+#resetButton{
+    background-color:rgb(195, 109, 195);
+}
+.winner {
+    color: rgb(96, 221, 96);
+}
+
+.loser {
+    color: rgb(240, 39, 39);
+}
+img{
+    width:400px;
+    height:200px;
+}
+.disabled{
+    color:rgba(123,24,35,67);
+}
